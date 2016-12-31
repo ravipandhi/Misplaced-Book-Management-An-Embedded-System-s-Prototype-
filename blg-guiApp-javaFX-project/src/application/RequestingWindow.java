@@ -119,7 +119,7 @@ public class RequestingWindow implements Initializable {
         } else {
 
             
-            DatabaseHandler Callee = new DatabaseHandler();
+            DataAccessObject Callee = new DataAccessObject();
             Callee.ConnectJDBC();
 
             if (!nameIsEmpty) {
