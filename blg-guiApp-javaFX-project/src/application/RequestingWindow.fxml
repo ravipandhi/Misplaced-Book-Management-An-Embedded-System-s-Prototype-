@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="554.0" text="Book Location Grabber" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RequestingWindow">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="214.0" layoutY="233.0" mnemonicParsing="false" onAction="#locateButtonPressed" text="Locate">
+               <font>
+                  <Font size="25.0" />
+               </font></Button>
+            <Label layoutX="37.0" layoutY="52.0" text="Name">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+            <TextField fx:id="name" layoutX="207.0" layoutY="48.0" onAction="#locateButtonPressed" promptText="Enter Name of the book" />
+            <Label layoutX="37.0" layoutY="113.0" text="Author">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+            <TextField fx:id="author" layoutX="207.0" layoutY="109.0" onAction="#locateButtonPressed" promptText="Enter Author of the book " />
+            <Label layoutX="37.0" layoutY="179.0" text="Publication">
+               <font>
+                  <Font size="25.0" />
+               </font></Label>
+            <TextField fx:id="publication" layoutX="207.0" layoutY="175.0" onAction="#locateButtonPressed" promptText="Enter Publication of the book" />
+         </children></AnchorPane>
+  </content>
+   <font>
+      <Font name="System Bold" size="25.0" />
+   </font>
+</TitledPane>
